@@ -206,7 +206,7 @@ optimizer = optim.Adam(net.parameters(), lr=lr)
 
 min_loss = float('inf')
 weight = None
-num_timesteps = 8
+num_timesteps = 4 # 2，4,6，8， 10
 best_acc = 0.0
 best_weight = None
 for e in range(epoch):
